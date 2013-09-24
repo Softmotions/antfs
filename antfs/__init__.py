@@ -198,8 +198,13 @@ class AntPatternDirectoryScanner(object):
     def _traverse(self, tdir, acceptfn, ctx=None, inodes=None):
         if inodes is None:
             inodes = set()
-        dlist = os.listdir(tdir)
-        dlist.sort()
+        try:
+            dlist = os.listdir(tdir)
+            dlist.sort()
+        except PermissionError as e:
+            print("Directory scanning error: ", e)
+            return
+
         for e in dlist:
             epath = os.path.join(tdir, e)
             try:
