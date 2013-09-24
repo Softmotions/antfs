@@ -11,7 +11,7 @@ setup(
     version="1.0.0",
     author="Anton Adamansky",
     author_email="adamansky@gmail.com",
-    description="Python3 Ant path patterns matching library",
+    description="Python3 Apache Ant path patterns matching library",
     license="MIT",
     keywords=["ant", "pattern", "matching", "glob", "regexp", "file", "selector"],
     url="https://github.com/Softmotions/antfs",
@@ -25,7 +25,7 @@ setup(
         "Operating System :: OS Independent",
         "Programming Language :: Python :: 3.3",
         "Programming Language :: Python :: 3",
-        "Topic :: Software Development :: Libraries"
+        "Topic :: Software Development :: Libraries",
         "Topic :: Utilities"
     ],
     data_files=[("doc", ["README.rst"])]
