@@ -32,7 +32,7 @@ Installation:
   sudo pip3 install antfs
 
   # Upgrading:
-  sudo pip3 install pyejdb --upgrade
+  sudo pip3 install antfs --upgrade
 
 *******************************
 (B): Installation from sources
