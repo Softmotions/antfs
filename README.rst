@@ -17,3 +17,31 @@ Copy matched files into target directory:
 
 >>> ds = AntPatternDirectoryScanner("some/dir/**")
 ... ds.copy("target/dir")
+
+==============
+Installation:
+==============
+
+**************************
+(A): Installation with pip
+**************************
+
+:: 
+  
+  umask 022
+  sudo pip3 install antfs
+
+  # Upgrading:
+  sudo pip3 install pyejdb --upgrade
+
+*******************************
+(B): Installation from sources
+*******************************
+
+
+::
+    
+    umask 022
+    git clone https://github.com/Softmotions/antfs.git
+    cd ./antfs
+    sudo python3 ./setup.py install
