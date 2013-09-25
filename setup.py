@@ -8,7 +8,7 @@ def read(fname):
 
 setup(
     name="antfs",
-    version="1.0.2",
+    version="1.0.3",
     author="Anton Adamansky",
     author_email="adamansky@gmail.com",
     description="Python3 Apache Ant path patterns matching library",
