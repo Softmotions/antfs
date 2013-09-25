@@ -23,7 +23,21 @@ DEFAULTEXCLUDES = [
     "**/vssver.scc",
     "**/.svn",
     "**/.svn/**",
-    "**/.DS_Store"
+    "**/.DS_Store",
+    "**/.git",
+    "**/.git/**",
+    "**/.gitattributes",
+    "**/.gitignore",
+    "**/.gitmodules",
+    "**/.hg",
+    "**/.hg/**",
+    "**/.hgignore",
+    "**/.hgsub",
+    "**/.hgsubstate",
+    "**/.hgtags",
+    "**/.bzr",
+    "**/.bzr/**",
+    "**/.bzrignore"
 ]
 
 
