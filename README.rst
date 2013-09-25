@@ -15,7 +15,7 @@ Select file paths matched the specified `ant path pattern <http://ant.apache.org
 
 Copy matched files into target directory:
 
->>> ds = AntPatternDirectoryScanner("some/dir/**")
+>>> ds = AntPatternDirectoryScanner("foo/bar", "data/**/*.txt")
 ... ds.copy("target/dir")
 
 ==============
