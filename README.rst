@@ -1,11 +1,11 @@
-antfs: Python3 `Ant <http://ant.apache.org/manual/dirtasks.html#patterns>`_ path matching library
+antfs: Python3 `Ant <http://ant.apache.org/manual/dirtasks.html>`_ path matching library
 ===================================================================
 
 ============
 Usage:
 ============
 
-Select file paths matched the specified `ant path pattern <http://ant.apache.org/manual/dirtasks.html#patterns>`_ :
+Select file paths matched the specified `ant path pattern <http://ant.apache.org/manual/dirtasks.html>`_ :
 
 >>> ds = AntPatternDirectoryScanner("foo/bar", "foo/**/*.txt")
 ... for filename in ds.scan():

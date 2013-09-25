@@ -8,7 +8,7 @@ def read(fname):
 
 setup(
     name="antfs",
-    version="1.0.1",
+    version="1.0.2",
     author="Anton Adamansky",
     author_email="adamansky@gmail.com",
     description="Python3 Apache Ant path patterns matching library",
@@ -27,6 +27,5 @@ setup(
         "Programming Language :: Python :: 3",
         "Topic :: Software Development :: Libraries",
         "Topic :: Utilities"
-    ],
-    data_files=[("doc", ["README.rst"])]
+    ]
 )
